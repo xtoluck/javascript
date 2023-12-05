@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Quantity Project</title>
+</head>
+
+<body>
+    <p>Cart Quantity</p>
+    <div>
+        <button onclick=" 
+            console.log(`Cart quantity: ${CartQuantity}`);
+            "> Show Quantity</button>
+
+        <button onclick="
+         console.log(`Cart quantity: ${CartQuantity = CartQuantity + 1}`);
+        ">Add to Cart</button>
+
+        <button onclick="
+         console.log(`Cart quantity: ${CartQuantity = CartQuantity + 2}`);
+        ">+2</button>
+
+        <button onclick="
+         console.log(`Cart quantity: ${CartQuantity = CartQuantity + 3}`);
+        ">+3</button>
+
+        <button onclick="
+         console.log(`Cart quantity: ${CartQuantity = CartQuantity -CartQuantity}`);
+        ">Reset Cart</button>
+
+
+    </div>
+    <script>
+        let CartQuantity = 0;
+    </script>
+</body>
+
+</html>
